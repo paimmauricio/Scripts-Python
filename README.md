@@ -24,7 +24,7 @@ Este repositório foi criado para que eu possa colocar e compartilhar Scripts em
 
    - Verifica se existe colisão na rede.
    - Obs: LOOP com o MAC que está originando é normal.
-     - Caso existe colisão, irá aparecer outros MACs 
+     - Caso exista colisão, irão aparecer outros MACs 
 
 ---
 
