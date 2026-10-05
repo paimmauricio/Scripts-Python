@@ -24,7 +24,22 @@ Este repositório foi criado para que eu possa colocar e compartilhar Scripts em
 
    - Verifica se existe colisão na rede.
    - Obs: LOOP com o MAC que está originando é normal.
-     - Caso exista colisão, irão aparecer outros MACs 
+     - Caso exista colisão, irão aparecer outros MACs
+    
+5. **winadmin.py** 🚀
+   - Ferramenta completa de administração remota Windows (via SMB/NetExec) e diagnóstico de rede local.
+   - **Funcionalidades Administrador (IPs Privados/LAN):**
+     - Consulta de Uptime da máquina.
+     - Consulta e gerenciamento de programas instalados (Registro e WMI) com desinstalação silenciosa.
+     - Gerenciamento de disco (espaço no C:) e limpeza avançada de arquivos temporários (`Temp`, `AppData\Local\Temp`, `SoftwareDistribution` e lixeira) com relatório de espaço liberado.
+     - Listagem de serviços em execução e pastas compartilhadas.
+     - Identificação de usuários logados no momento.
+     - Reinicialização remota de máquinas.
+   - **Funcionalidades de Diagnóstico (IPs Públicos e Privados):**
+     - Detecção automática entre IP Público vs. Privado (pula credenciais para IPs públicos).
+     - **Super Ping:** Painel interativo em tempo real com cálculo de Jitter, variação de latência e relatórios salváveis.
+     - **Tracepath:** Mapeamento visual e gráfico de saltos de rota.
+     - Checagem em lote de múltiplos IPs através de arquivo `.txt`.
 
 ---
 
