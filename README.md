@@ -33,7 +33,7 @@ Este repositório foi criado para que eu possa colocar e compartilhar Scripts em
 ### 📥 **1. Baixe o Script do GitHub**
 
 1. Acesse o repositório do script no GitHub:
-   - 🔗 [WindowsTweak](https://github.com/paimmauricio/Scripts-Python)
+   - 🔗 [Scripts-Python](https://github.com/paimmauricio/Scripts-Python)
 2. Clique no botão **"Code"** (Código) e selecione **"Download ZIP"**.
 3. Extraia o arquivo ZIP para uma pasta de fácil acesso, como a Área de Trabalho.
 
