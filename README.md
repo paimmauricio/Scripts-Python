@@ -41,22 +41,21 @@ Este repositório foi criado para que eu possa colocar e compartilhar Scripts em
      - **Tracepath:** Mapeamento visual e gráfico de saltos de rota.
      - Checagem em lote de múltiplos IPs através de arquivo `.txt`.
 
+6. **analisar_arquivos.py** 🚀
+   - Automatizar a triagem estática e análise forense de arquivos suspeitos (PDF, RTF e documentos do Microsoft Office).
+   - Analisa a assinatura binária física do arquivo (Magic Bytes) para identificar seu tipo real, impedindo que atacantes mascarem ameaças (como alterar a extensão de um arquivo .docm malicioso para .pdf ou .jpg). Caso encontre ameaças ativas (como macros suspeitas ou ações automáticas em PDFs), ele inicia uma dissecação profunda automatizada utilizando os utilitários pdf-parser e pdfid integrados ao sistema operacional.
+     - - OBS: Nessesário instalar:
+       - pdf-parser (sudo apt install pdf-parser)
+       - pdfid (sudo apt install pdfid)
+       - Oletools (sudo pip3 install oletools --break-system-packages)
 ---
 
-## 🔧 **# Como Usar o Script**
-
-### 📥 **1. Baixe o Script do GitHub**
+### 📥 **Baixe o Script do GitHub**
 
 1. Acesse o repositório do script no GitHub:
    - 🔗 [Scripts-Python](https://github.com/paimmauricio/Scripts-Python)
 2. Clique no botão **"Code"** (Código) e selecione **"Download ZIP"**.
 3. Extraia o arquivo ZIP para uma pasta de fácil acesso, como a Área de Trabalho.
-
-
-### 🔍 **2. Execute como Administrador**
-
-- Abra o cmd como administrador
-- Executo o script .\script.py ---- Substitua "script.py" pelo nome correto do script que queira utilizar
 
 ---
 
