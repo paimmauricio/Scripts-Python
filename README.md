@@ -86,10 +86,6 @@ Se este script foi útil para você e deseja apoiar o projeto, considere fazer u
 
 ---
 
-## 📌 Versão
-
-- **1.0**
-
 ## 👨‍💻 Autor
 
 - **Maurício Paim**  
